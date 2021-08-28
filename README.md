@@ -32,7 +32,7 @@ const compareGuesses = (userGuess, computerGuess, target) => {
   };
   
 // Function (3 of 4) Parameter will be a string value representing the winner, increases the score variable (humanScore or computerScore) by 1 depending on winner passed in to updateScore, string passed in will be either 'human' or 'computer', does not need to return any value.
-const updateScore = (winner) => {
+const updateScore = winner => {
     if (winner === 'human') {
         humanScore++;
     } else {
